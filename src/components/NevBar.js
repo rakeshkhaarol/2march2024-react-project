@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export const NevBar = () => {
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className="bg-body-tertiary drop">
         <Container fluid>
           <Navbar.Brand href="/">Resto</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -15,11 +15,11 @@ export const NevBar = () => {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link href="#action1"><Link to={'/'}>Home</Link></Nav.Link>
-              <Nav.Link href="#action1"><Link to={'/create'}>Create</Link></Nav.Link>
-              <Nav.Link href="#action2"><Link to={'/update'}>Update</Link></Nav.Link>
-              <Nav.Link href="#action2"><Link to={'/list'}>List</Link></Nav.Link>
-              <Nav.Link href="#action2"><Link to={'/search'}>Search</Link></Nav.Link>
+              <Link to={'/'} style={{ marginRight:'20px' }}>Home</Link>
+              <Link to={'/create'} style={{ marginRight:'20px' }}>Create</Link>
+              <Link to={'/update'} style={{ marginRight:'20px' }}>Update</Link>
+              <Link to={'/list'} style={{ marginRight:'20px' }}>List</Link>
+              <Link to={'/search'} style={{ marginRight:'20px' }}> Search</Link>
               
             </Nav>
           </Navbar.Collapse>
