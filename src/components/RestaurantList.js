@@ -46,7 +46,7 @@ function RestaurantList() {
                         {
                         restaurants.slice(0).map((cv, idx, arr) => {
                             return <Card key={idx}>
-                            <Card.Img variant="top" src="holder.js/100px160" >{cv.attributes.image}</Card.Img>
+                            <Card.Img variant="top" src="public/img/img1.jpg" />
                             <Card.Body>
                                 <Card.Title>{cv.attributes.name}</Card.Title>
                                 <Card.Text>
