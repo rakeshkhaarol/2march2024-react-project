@@ -1,5 +1,0 @@
-RestaurantList
-RestaurantDetail
-RestaurantSearch
-RestaurantCreate
-RestaurantUpdate
