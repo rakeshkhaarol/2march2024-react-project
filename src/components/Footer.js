@@ -7,12 +7,12 @@ import { PiPhoneCallLight } from 'react-icons/pi'
 
 export default function Footer() {
     return (
-        <div className='container-fluid footer-1'>
+        <div className='container-fluid mt-2 mb-4'>
             <div className='row'>
-                <div className='col-md-6'>
+                <div className='col-md-6 '>
                     <div className='row'>
                         <div className='col-1 position-relative'>
-                            <div className='footer_icon' data-bs-toggle="tooltip" data-bs-placement="top" title="Location">
+                            <div data-bs-toggle="tooltip" data-bs-placement="top" title="Location">
                                 <FaLocationDot className="fs-4 position-absolute top-50 start-50 translate-middle" />
                             </div>
                         </div>
@@ -23,7 +23,7 @@ export default function Footer() {
                     </div>
                     <div className='row mt-3'>
                         <div className='col-1 position-relative'>
-                            <div className='footer_icon' data-bs-toggle="tooltip" data-bs-placement="top" title="Colling Number">
+                            <div data-bs-toggle="tooltip" data-bs-placement="top" title="Colling Number">
                                 <PiPhoneCallLight className="fs-4 position-absolute top-50 start-50 translate-middle" />
                             </div>
                         </div>
@@ -31,7 +31,7 @@ export default function Footer() {
                     </div>
                     <div className='row mt-3'>
                         <div className='col-1 position-relative'>
-                            <div className='footer_icon' data-bs-toggle="tooltip" data-bs-placement="top" title="Gmail">
+                            <div data-bs-toggle="tooltip" data-bs-placement="top" title="Gmail">
                                 <AiOutlineMail className="fs-4 position-absolute top-50 start-50 translate-middle" />
                             </div>
                         </div>
@@ -43,16 +43,16 @@ export default function Footer() {
                     <p className='text-secondary'>Established in the year 2022, Apna Safa House in Village-Surajna, Jodhpur is a top player in the category Turban Retailers in the Jodhpur. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Neemuch</p>
                     <div className='d-flex justify-content-start justify-content-md-start'> {/* Utilizing Bootstrap flex utilities */}
                         <a href='https://www.facebook.com/' className='me-2'>
-                            <FaFacebook className="fs-4 text-white" />
+                            <FaFacebook className="fs-4 text-primary" />
                         </a>
                         <a href='https://www.instagram.com/' className='me-2'>
-                            <FaInstagram className="fs-4 text-white" />
+                            <FaInstagram className="fs-4 text-danger" />
                         </a>
                         <a href='https://www.whatsapp.com/' className='me-2'>
-                            <FaWhatsapp className="fs-4 text-white" />
+                            <FaWhatsapp className="fs-4 text-success" />
                         </a>
                         <a href='https://twitter.com/'>
-                            <FaTwitter className="fs-4 text-white" />
+                            <FaTwitter className="fs-4 text-primary" />
                         </a>
                     </div>
                 </div>
