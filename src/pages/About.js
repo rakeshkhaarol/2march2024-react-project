@@ -13,7 +13,7 @@ const About = () => {
     //every function has a return something
     return (
         <>
-            <div>about the product</div>
+            <main>about the product</main>
         </>
     )
 

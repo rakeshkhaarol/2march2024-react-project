@@ -9,7 +9,9 @@ function Login (){
 
 
     //return statments
-    return <>Login the detail</>
+    return (
+        <main>Login the detail</main>
+    )
 }
 
 
