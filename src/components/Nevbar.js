@@ -15,9 +15,9 @@ export default function Nevbar() {
         <div className="container-fluid">
           <a className="navbar-brand fs-2" href="#"><img src={logo} alt="Logo" className="navbar-brand m-0" style={{ height: '60px', marginRight: '5px' }} /></a>
           <button className="navbar-toggler" type="button" onClick={toggleMenu}>
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon "></span>
           </button>
-          <div className={`collapse navbar-collapse  ${isMenuOpen ? 'show' : ''}`}>
+          <div className={` offcanvas offcanvas-end  ${isMenuOpen ? 'show' : ''}`}  style={{width:'50% !important'}}>
             <div className="navbar-nav ms-auto">
               <Link className="nav-link active" to={'/'}>Home</Link>
               <Link className="nav-link" to={'/about'}>about</Link>

@@ -1,7 +1,10 @@
 
 main {
-    height: 1000px;
+    min-height: 1000px;
     background: skyblue;
 }
 
 
+.zoom-img {
+    transition: transform 0.3s ease;
+}
